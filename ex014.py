@@ -1,0 +1,5 @@
+print('\033[1;30;44m=\033[m'*25)
+print('\033[1;34mConversor de temperatura\033[m')
+print('\033[1;30;44m=\033[m'*25)
+c = float(input('\033[37mInforme a temperatura em °C: \033[m'))
+print('\033[1;31m{}°C equivalem a: {:.2f}°F\033[m'.format(c, (c*9/5)+32))
